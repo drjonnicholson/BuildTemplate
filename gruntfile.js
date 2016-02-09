@@ -57,6 +57,8 @@ module.exports = function (grunt) {
 				// 'win', 'osx', 'linux', etc. See https://github.com/nwjs/nw-builder#manifest-options
 				platforms: ['win32'],
 				buildDir: './bin',
+				// winIco
+				// macIcns
 				version: 'v0.12.3' // Current stable release, 0.13.0 (beta 5 as of 2016-02-09) fails on ffmpegsumo.dll
 			},
 			src: ['./src/**']
