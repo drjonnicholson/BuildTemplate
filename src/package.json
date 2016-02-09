@@ -4,14 +4,21 @@
   "homepage": "http://www.drjonnicholson.com",
   "version": "0.0.1",
   "description": "A very simple application",
-  "license" : "MIT",
+  "private": true,
+  "license": "MIT",
   "main": "index.html",
   "window": {
+    "icon": "icon.png",
+    "toolbar": false,
     "frame": true,
-    "toolbar": false
+    "width": 800,
+    "height": 500,
+    "min_width": 800,
+    "min_height": 500,
+    "position": "center"
   },
   "dependencies": {
     "jquery": "^2.2.0",
-    "nw-builder": "^2.2.0"
+    "jquery-ui": "^1.10.5"
   }
 }

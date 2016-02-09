@@ -1,18 +1,11 @@
-window.$ = require('jquery');
+var $ = require('jquery');
+global.document = window.document;
+global.navigator = window.navigator;
+require('jquery-ui');
 
 $(document).ready(function() {
-	var gui = require('nw.gui');
-	var win = gui.Window.get();
-	var menu = new gui.Menu({ type: 'menubar' });
-	menu.append(new gui.MenuItem({ label: 'Debug', click: function(){
-		win.showDevTools();
-	}}));
-
-	win.menu = menu;
-
-	$('#btn').bind('click', function() {
-		console.log('Button clicked');
+	$('#fullscreen').bind('click', function() {
+		console.log('Toggling fullscreen mode');
+		win.toggleFullscreen();
 	});
 });
-
-
