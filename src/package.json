@@ -1,0 +1,16 @@
+{
+  "name": "Application",
+  "author": "Jon Nicholson",
+  "homepage": "http://www.drjonnicholson.com",
+  "version": "0.0.1",
+  "description": "A very simple application",
+  "main": "index.html",
+  "window": {
+    "frame": true,
+    "toolbar": false
+  },
+  "dependencies": {
+    "jquery": "^2.2.0",
+    "nw-builder": "^2.2.0"
+  }
+}

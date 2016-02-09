@@ -1,0 +1,16 @@
+body {
+	margin: 0;
+	padding: 1em;
+	font-size: 100%;
+}
+input {
+	display: block;
+	height: 5em;
+	width: 100%;
+	margin-bottom: 1em;
+	text-align: left;
+	background-image: url('');
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 64px;
+}
