@@ -4,6 +4,7 @@
   "homepage": "http://www.drjonnicholson.com",
   "version": "0.0.1",
   "description": "A very simple application",
+  "license" : "MIT",
   "main": "index.html",
   "window": {
     "frame": true,
